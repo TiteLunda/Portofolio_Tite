@@ -33,6 +33,7 @@
 }
 
 .headline {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,6 +45,17 @@
     background-size: 100%;
     text-align: center;
     margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("header-illsutration-mobile@2x.jpg");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
 }
 
 .identity {
