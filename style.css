@@ -4,12 +4,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-.body {
-  width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -54,6 +48,7 @@
   font-style: normal;
   text-align: center;
   padding-top: 50px;
+  width: 327px;
 }
 
 .identity span {
@@ -140,15 +135,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   align-items: center;
   background-color: #fff;
   margin-top: 40px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7%;
+  margin-right: -2%;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   width: 327px;
-  left: 2px;
 }
 
 .cards img {
@@ -224,8 +219,20 @@
 }
 
 .button:hover {
-  transform: rotate(360deg);
-  transform: scale(1.01);
+  color: white;
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.button:active {
+  color: white;
+  background-color: #008552;
+}
+
+.button:enabled {
+  color: #fff;
+  background-color: #36b37f;
 }
 
 .About-me {
@@ -289,7 +296,6 @@
 .about-text1 {
   color: #172b4d;
   width: 327px;
-  height: 363;
   font-size: 20px;
   padding-bottom: 10px;
   text-align: center;
@@ -310,12 +316,20 @@
 }
 
 .aboutme-button:hover {
-  background-color: #36b37e;
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+  color: white;
   transition: 0.7s;
 }
 
 .aboutme-button:active {
-  background-color: #36b37f;
+  background-color: #008552;
+  color: white;
+}
+
+.aboutme-button:enabled {
+  color: white;
 }
 
 .grid_container_2 {
@@ -385,4 +399,194 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* the contact form CSS start from here */
+
+form {
+  margin: 0 auto;
+  margin-left: -35px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+form ul {
+  list-style: none;
+}
+
+input {
+  box-sizing: border-box;
+  width: 327px;
+  padding: 0;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  background-color: white;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  color: #6b778c;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  padding: 10px;
+}
+
+.name-box {
+  margin-bottom: 24px;
+  margin-top: 55px;
+}
+
+.email-box {
+  margin-bottom: 24px;
+}
+
+.textarea {
+  display: flex;
+  align-items: center;
+  color: #6b778c;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  height: 114px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 327px;
+  padding: 10px;
+}
+
+.textarea-box {
+  margin-bottom: 24px;
+}
+
+/* HMTL Form starts form here */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  background-image: url("./Images/illustration-contact-form.png");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: right 90%;
+}
+
+.contact-text {
+  color: #172b4f;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  bottom: 44px;
+  top: 54px;
+  justify-content: center;
+  padding: 10% 1% 6% 5%;
+  width: 327px;
+}
+
+input::placeholder {
+  position: absolute;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  margin-right: -40px;
+  margin-top: 15px;
+}
+
+.footer-Icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.Icons {
+  padding: 0 8px 10px 8px;
+}
+
+.shape {
+  width: 124px;
+  height: 5px;
+  left: 140px;
+  bottom: 10px;
+  background: #0d151e;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 25px;
+}
+
+.footer {
+  margin-top: -100px;
+  margin-right: 40px;
+  margin-bottom: 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.last-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 0;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.get-button {
+  background-color: #36b37f;
+  font-weight: 600px;
+  font-size: 17px;
+  color: white;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  border: 2px solid #36b37f;
+  margin-right: -40px;
+  transition: background-color 1s;
+}
+
+.get-button:active {
+  background: #008552;
+  border-radius: 4px;
+}
+
+.get-button:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+  color: #fff;
 }
