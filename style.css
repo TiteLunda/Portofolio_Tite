@@ -2,7 +2,7 @@
     * {
         font-family: 'Inter', sans-serif;
     }
-    
+  
     
     .navbar {
         overflow: hidden;
@@ -14,8 +14,41 @@
         height: 50px;
         background-color: #ffff;
     }
-    
-    #logo {
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: green;
+
+    }
+    .desktop-nav{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        text-align: center;
+        list-style: none;
+        justify-content: center;
+        height: 40px;
+        width: 1440px;
+        background-color: white;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+    }
+    .desktop1{
+        width: 63px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 15px;
+        margin-top: 8px;
+        
+        color: #344563;
+    }
+    .logo {
         color: #172b4f;
         text-decoration: none;
         font-size: 20px;
@@ -48,7 +81,8 @@
         font-style: normal;
         text-align: center;
         padding-top: 50px;
-        width: 327px;
+        /* width: 327px; */
+        justify-content: center;
     }
     
     .identity span {
@@ -293,7 +327,9 @@
     
     .aboutme-button {
         display: flex;
-        padding: 12px;
+        width: 154px;
+        align-items: center;
+        /* padding: 4px; */
         overflow: hidden;
         position: relative;
         align-items: center;
@@ -302,6 +338,7 @@
         background-color: #36b37e;
         color: #fff;
         text-align: center;
+       
     }
     
     .aboutme-button:hover {
@@ -594,4 +631,139 @@ input::placeholder {
     .get-button:hover {
         background-color: #d0d9d4;
         box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    }
+    @media screen and (min-width:768px) {
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            background-image:
+            url("./Images/desk-b-1.png"),
+            url("./Images/desk-b-2.png"),
+            url("./Images/desk-b-3.png");
+          background-repeat: no-repeat;
+          background-size: 10%;
+          background-position: right 98%, left 98%, 16% 97%;
+         
+          }
+        .navbar{
+            display: none;
+          }
+          .menu{
+            display: none;
+          }
+            .logo{
+                display: none;
+            }
+            .header-nav{
+                display: none;
+            }
+            .identity{    
+                margin-top: 40px;
+                text-align: center;
+               
+            }
+      
+            .headline {
+                background-image: url("./Images/desk-pic-1.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                margin-top: 0px;
+                
+              }
+              .container{
+                height: 836px;
+              }
+       
+            
+            .cards-contener{
+                display: grid;
+                grid-template-columns: repeat(3, 369px);
+                justify-content: center;
+            }
+            .about-card-container {
+                display: grid;
+                grid-template-columns: repeat(3,350px);
+                justify-content: center;
+            }
+           .about-text1 {
+            width: 920px;
+            text-align: center;
+           }
+        .Recent{
+            width: 447px;
+            text-align: center;
+        }
+        .profile{
+            text-align: center;
+            width: 920px;
+        }
+        .aboutme-text{
+            justify-content: center;
+        }
+        .About-me{
+            background-image:
+            url("./Images/about-top-right-desktop.png"),
+            url("./Images/about-bottom-left-desktop.png");
+          background-position: right top, left bottom 80px;
+          background-repeat: no-repeat;
+      
+        }
+        .contact-form{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 80px 0px;
+            gap: 24px;
+            
+            position: relative;
+            width: 1171px;
+            height: 490px;
+            left: 115px;
+            top: 204px;
+        }
+
+      .contact-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 30px;
+            padding: 0px;
+            width: 463px;
+            height: 256px;
+            margin-left: -15%;
+        }
+   .form-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: -80%;
+     padding: 0px;
+    gap: 24px;
+    width: 684px;
+    height: 200px;
+   }
+   input{
+    width: 544px;
+    height: 48px;
+   }
+   .form-ul{
+    margin-right: -20%;
+   }
+   .textarea{
+    width: 544px;
+   }
+      
+
+
+        
+    }
+    @media screen and (max-width:600px) {
+        .desktop-nav{
+            display: none;
+        }
+        .desktop1{
+            display: none;
+        }
+      
     }
