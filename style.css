@@ -2,7 +2,7 @@
     * {
         font-family: 'Inter', sans-serif;
     }
-    
+  
     
     .navbar {
         overflow: hidden;
@@ -14,8 +14,41 @@
         height: 50px;
         background-color: #ffff;
     }
-    
-    #logo {
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: green;
+
+    }
+    .desktop-nav{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        text-align: center;
+        list-style: none;
+        justify-content: center;
+        height: 72px;
+        background-color: white;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+    }
+    .desktop1{
+        width: 63px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 15px;
+        margin-top: 25px;
+  
+        
+        color: #344563;
+    }
+    .logo {
         color: #172b4f;
         text-decoration: none;
         font-size: 20px;
@@ -48,7 +81,8 @@
         font-style: normal;
         text-align: center;
         padding-top: 50px;
-        width: 327px;
+   
+        justify-content: center;
     }
     
     .identity span {
@@ -138,12 +172,12 @@
         align-items: center;
         background-color: #fff;
         margin-top: 40px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 7%;
+        margin-right: -7%;
         border: 1px solid #d0d9d4;
         border-radius: 8px;
         width: 327px;
-        left: 2px;
+        left: 6px;
     }
     
     .cards img {
@@ -284,7 +318,7 @@
     .about-text1 {
         color: #172b4d;
         width: 327px;
-        /* height: 363; */
+ 
         font-size: 20px;
         padding-bottom: 10px;
         text-align: center;
@@ -293,7 +327,9 @@
     
     .aboutme-button {
         display: flex;
-        padding: 12px;
+        width: 154px;
+        align-items: center;
+
         overflow: hidden;
         position: relative;
         align-items: center;
@@ -302,6 +338,7 @@
         background-color: #36b37e;
         color: #fff;
         text-align: center;
+       
     }
     
     .aboutme-button:hover {
@@ -514,7 +551,7 @@ input::placeholder {
         line-height: 24px;
     }
     
-     .email {
+     .email1 {
        display: flex;
        justify-content: center;
         
@@ -592,6 +629,201 @@ input::placeholder {
     }
     
     .get-button:hover {
-        background-color: #d0d9d4;
+        background-color: #36b37f;
         box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    }
+    @media screen and (min-width:768px) {
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            background-image:
+            url("./Images/desk-b-1.png"),
+            url("./Images/desk-b-2.png"),
+            url("./Images/desk-b-3.png");
+          background-repeat: no-repeat;
+          background-size: 10%;
+          background-position: right 97%, left 98%, 16% 97%;
+         
+          }
+          .icon-group{
+            display: none;
+          }
+        .navbar{
+            display: none;
+          }
+          .menu{
+            display: none;
+          }
+            .logo{
+                display: none;
+            }
+            .header-nav{
+                display: none;
+            }
+            .identity{    
+                margin-top: 80px;
+                text-align: center;
+                font-size: 48px;
+               
+            }
+      
+            .headline {
+                background-image: url("./Images/desk-pic-1.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                margin-top: 0px;
+                height: 180vh;
+                
+              }
+              .container{
+                height: 836px;
+              }
+       
+            
+            .cards-contener{
+                display: grid;
+                grid-template-columns: repeat(3, 369px);
+                justify-content: center;
+            }
+            .about-card-container {
+                display: grid;
+                grid-template-columns: repeat(3,350px);
+                justify-content: center;
+            }
+           .about-text1 {
+            width: 920px;
+            text-align: center;
+           }
+        .Recent{
+            width: 447px;
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #172b4d;
+        }
+        .line{
+          display: none;
+        }
+        .profile{
+            text-align: center;
+            justify-content: center;
+            width: 980px;
+            font-size: 20px;
+            margin-bottom: 25px;
+          
+        }
+        .chevron{
+          margin-right: -6%;
+          margin-bottom: 70vh;
+      
+        }
+        .aboutme-text{
+            justify-content: center;
+        }
+        .About-me{
+            background-image:
+            url("./Images/about-top-right-desktop.png"),
+            url("./Images/about-bottom-left-desktop.png");
+          background-position: right top, left bottom 80px;
+          background-repeat: no-repeat;
+      
+        }
+.contact-form{
+            display: flex;
+            flex-direction: row;
+            padding-left: 1%;
+            padding-right: 1%;
+            gap: 24px;
+            background-image: none;
+            margin-top: 7%;
+            width: 100%;
+            height: auto;
+            left: 415px;
+            top: 204px;
+        }
+
+      .contact-text{
+            display: flex;
+            flex-direction: column;
+            font-size: 30px;
+            padding: 0px;
+            width: 463px;
+            margin-left: 90%;
+            margin-top: 15%;
+        }
+   .form-desc{
+    display: flex;
+    flex-direction: column;
+     padding: 0px;
+    margin-top: -10%;
+    margin-right: 13%;
+    width: 684px;
+    height: 130px;
+   }
+   input{
+    width: 544px;
+    height: 48px;
+   }
+   .form-ul{
+    margin-right: -20%;
+    padding: 0;
+    margin: 0;
+   }
+   .textarea{
+    width: 544px;
+   }
+   .aboutme-button,
+   .get-button {
+
+    justify-content: flex-start;
+    top: 0px;
+
+   }
+   .last-b{
+    justify-content: start;
+    margin-left: 0;
+   }
+
+  .shape1{
+    color: #000;;
+    height: 3px;
+    left: 0px;
+    right: 0px;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+  }
+  .email1{
+    display: none;
+  }
+  .shape{
+    display: none;
+  }
+.footer-Icon{
+display: none;
+}
+.footer-Icon2{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+        
+    }
+    @media screen and (max-width:600px) {
+        .desktop-nav{
+            display: none;
+        }
+        .desktop1{
+            display: none;
+        }
+        .footer-Icon2{
+          display: none;
+        }
+      
+        .shape1{
+          display: none;
+        }
     }
