@@ -76,7 +76,6 @@ p {
   font-family: "Inter", sans-serif;
   text-align: center;
   width: 100%;
-
 }
 
 li {
@@ -92,7 +91,6 @@ li {
 .dn-list a {
   color: #344563;
 }
-
 
 .item1 {
   padding: 10% 10% 2% 10%;
@@ -437,7 +435,7 @@ textarea {
   background-image: url("./Images/final-pic.png");
   background-repeat: no-repeat;
   background-size: 60px;
-  background-position: right 0%;
+  background-position: right 90%;
 }
 
 .my-email {
@@ -514,7 +512,6 @@ textarea {
   flex-direction: column;
   background-color: #ebf0ee;
   width: 327px;
-
   margin: 5px 0;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
