@@ -38,6 +38,21 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+.mobile-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 32px;
+  color: #3a4a42;
+  padding-left: 0;
+  transition: 0.7s ease;
+  text-decoration: none;
+}
+
+.mobile-link:hover {
+  color: #36b37f;
+}
+
 
 /* for logo(welcome) styling */
 
@@ -50,9 +65,43 @@ p {
   line-height: 28px;
   color: #28352f;
 }
+.mobile-menu{
+  position: absolute;
+  left: -107%;
+  top: 3%;
 
-.navbar {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+/* .navbar {
   padding: 7% 10% 0% 0%;
+} */
+.navbar {
+  margin: 5% 10% 0% 0%;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bar {
+  display: block;
+  width: 1rem;
+  height: 0.03rem;
+  margin: 10%;
+  background-color: #28352f;
+  border: 1px solid #28352f;
+  border-radius: 20%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* flexbox container no.2  */
@@ -768,4 +817,51 @@ textarea {
   .icon-container-3 {
     display: none;
   }
+  .mobile-menu {
+    position: absolute;
+    left: -107%;
+    top: 3%;
+
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-items {
+    margin: 5% 10% 0% 10%;
+  }
+
+  .mobile-menu.active {
+    left: 0;
+    padding-left: 0;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    opacity: 0.6;
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    opacity: 0.6;
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  /* mobile popup media qurrey */
+  .mobile-popup-model.active {
+    display: flex;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
 }
