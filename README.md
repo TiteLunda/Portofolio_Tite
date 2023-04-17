@@ -148,6 +148,12 @@ GitHub Pages
 - Twitter: [@LundaTite](https://twitter.com/LundaTite)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tite-lunda-094956199/)
 
+👤 **Emmanuel Efo**
+
+- GitHub: [@uno36](https://github.com/uno36)
+- Twitter: [@tofuemmanuel](https://twitter.com/tofauemmanuel)
+- LinkedIn: [Linkidin](https://www.linkedin.com/in/emmanuel-tofa-673b2516a)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

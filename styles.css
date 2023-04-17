@@ -812,8 +812,6 @@ textarea {
     position: absolute;
     left: -107%;
     top: 3%;
-
-    /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
