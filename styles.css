@@ -82,7 +82,10 @@ p {
   align-items: flex-start;
 }
 
-
+.hamburger:hover {
+  cursor: pointer;
+  color: #14932f;
+}
 
 .bar {
   display: block;
