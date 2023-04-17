@@ -19,8 +19,6 @@ h1 {
   font-size: 24px;
 }
 
-/* paragraph typography */
-
 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -31,13 +29,12 @@ p {
   margin: 0%;
 }
 
-/* flexbox container no.1 */
-
 .navtools_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .mobile-link {
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -53,24 +50,20 @@ p {
   color: #36b37f;
 }
 
-
-/* for logo(welcome) styling */
-
 .logo {
   width: 90px;
   height: 28px;
   padding: 5% 0% 0% 10%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   line-height: 28px;
   color: #28352f;
 }
-.mobile-menu{
+
+.mobile-menu {
   position: absolute;
   left: -107%;
   top: 3%;
-
-  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
@@ -79,9 +72,6 @@ p {
   height: 100%;
 }
 
-/* .navbar {
-  padding: 7% 10% 0% 0%;
-} */
 .navbar {
   margin: 5% 10% 0% 0%;
 }
@@ -817,6 +807,7 @@ textarea {
   .icon-container-3 {
     display: none;
   }
+
   .mobile-menu {
     position: absolute;
     left: -107%;
@@ -863,5 +854,4 @@ textarea {
     opacity: 1;
     pointer-events: all;
   }
-
 }
