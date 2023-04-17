@@ -82,6 +82,8 @@ p {
   align-items: flex-start;
 }
 
+
+
 .bar {
   display: block;
   width: 1rem;
@@ -137,6 +139,25 @@ li {
 
 .item1 {
   padding: 10% 10% 2% 10%;
+  animation: color-change 2s infinite alternate;
+}
+
+@keyframes color-change {
+  0% {
+    color: #172b4d;
+  }
+
+  25% {
+    color: #14932f;
+  }
+
+  75% {
+    color: #1e1868;
+  }
+
+  100% {
+    color: #f3f4f7;
+  }
 }
 
 /* changing color of second h1 */
