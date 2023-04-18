@@ -52,12 +52,11 @@ p {
 
 .logo {
   width: 90px;
-  height: 28px;
   padding: 5% 0% 0% 10%;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   line-height: 28px;
-  color: #28352f;
+  color: white;
 }
 
 .mobile-menu {
@@ -79,8 +78,13 @@ p {
 .hamburger {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
+  justify-content: flex-end;
+  top:0 ;
+  right: 0;
+ 
 }
+
 
 .hamburger:hover {
   cursor: pointer;
@@ -835,13 +839,14 @@ textarea {
   .mobile-menu {
     position: absolute;
     left: -107%;
-    top: 3%;
+    top: 0;
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
     background-color: white;
     width: 100%;
     height: 100%;
+    margin-top: 75px;
   }
 
   .mobile-items {
@@ -851,15 +856,18 @@ textarea {
   .mobile-menu.active {
     left: 0;
     padding-left: 0;
+  
   }
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
+    
   }
 
   .hamburger.active .bar:nth-child(1) {
     opacity: 0.6;
     transform: translateY(6px) rotate(45deg);
+   
   }
 
   .hamburger.active .bar:nth-child(3) {

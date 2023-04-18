@@ -1,12 +1,22 @@
+
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
+const mobileLinks = document.querySelectorAll('.mobile-link');
+const toggleActiveClass = (element) => {
+ element.classList.toggle('active');
+};
+const removeActiveClass = (element) => {
+ element.classList.remove('active');
+};
 
 hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  mobileMenu.classList.toggle('active');
+ toggleActiveClass(hamburger);
+ toggleActiveClass(mobileMenu);
 });
 
-document.querySelectorAll('.mobile-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  mobileMenu.classList.remove('active');
-}));
+mobileLinks.forEach((link) => {
+ link.addEventListener('click', () => {
+   removeActiveClass(hamburger);
+   removeActiveClass(mobileMenu);
+ });
+});
