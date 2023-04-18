@@ -903,7 +903,6 @@ textarea {
   border-radius: 10px;
   width: 327px;
   margin-right: 10px;
-  margin: 0;
   padding: 3%;
   background-color: #ffff;
 }
@@ -1066,6 +1065,7 @@ textarea {
   background-color: rgb(0, 0, 0, 0.3);
   pointer-events: none;
 }
+
 /* the desktop popup goes there -------------------------- */
 
 @media screen and (min-width: 768px) {
@@ -1174,10 +1174,6 @@ textarea {
   }
 }
 
-a {
-  text-decoration: none;
-}
-
 /*  Validation stylings */
 .error {
   font-family: "Inter", sans-serif;
@@ -1187,4 +1183,3 @@ a {
   text-align: left;
   color: rgb(206, 31, 31);
 }
-

@@ -20,7 +20,6 @@ mobileLinks.forEach((link) => {
   });
 });
 
-
 const cardData = [
   {
     id: 1,
@@ -34,8 +33,8 @@ const cardData = [
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
     btn2: 'See Source',
-    linkToLiveSource: 'https://emhamza.github.io/Capstone-1/',
-    linkToSource: 'https://github.com/emhamza/Capstone-1',
+    linkToLiveSource: 'https://github.com/TiteLunda/Portofolio_Tite',
+    linkToSource: 'https://github.com/TiteLunda/Portofolio_Tite',
   },
   {
     id: 2,
