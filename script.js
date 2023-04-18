@@ -29,7 +29,7 @@ const cardData = [
     capstoneIntro1: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.</br></br> Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ',
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
     image: './Images/mobile-popup.png',
-    popTitle: 'National Education Summit 2023',
+    popTitle: 'Keeping track of hundreds of components',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
     btn2: 'See Source',
