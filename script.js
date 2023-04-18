@@ -204,7 +204,7 @@ function popDisplay() {
                     </button>
                     </a>
                     <a href=${cardData[0].linkToSource}>
-                    <button class="btn">
+                    <button class="btn2">
                         <div class="popup-btn-text">${cardData[0].btn2}</div>
                         <div class="popup-icons">
                         <img src="./Images/Icon -GitHub.png" alt="see-live-icon">
