@@ -162,6 +162,7 @@ GitHub Pages
 - [ ] **[More section inclusiveness]**
 - [ ] **[Desktop Responsivness]**
 - [ ] **[Animation ]**
+- [ ] **[Windows Popup ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
