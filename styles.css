@@ -80,11 +80,9 @@ p {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-  top:0 ;
+  top: 0;
   right: 0;
- 
 }
-
 
 .hamburger:hover {
   cursor: pointer;
@@ -856,18 +854,15 @@ textarea {
   .mobile-menu.active {
     left: 0;
     padding-left: 0;
-  
   }
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
-    
   }
 
   .hamburger.active .bar:nth-child(1) {
     opacity: 0.6;
     transform: translateY(6px) rotate(45deg);
-   
   }
 
   .hamburger.active .bar:nth-child(3) {
