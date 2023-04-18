@@ -9,19 +9,35 @@
   <title> Portfolio tite</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/213f6776ae.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   <header class="navtools_container">
+   
     <h2 class="logo">Tite</h2>
+    <ul class="mobile-menu">
+      <li class="mobile-items">
+        <a href="#home" class="mobile-link">Portfolio</a>
+      </li>
+      <li class="mobile-items">
+        <a href="#about" class="mobile-link">About</a>
+      </li>
+      <li class="mobile-items">
+        <a href="#contact" class="mobile-link">Contact</a>
+      </li>
+    </ul>
 
-    <nav class="navbar">
-    <nav class="navbar">
-      <i class="fa-solid fa-bars"></i>
-    </nav>
+      <div class="hamburger navbar">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+
   </header>
 
-  <main class="main_container">
+  <main class="main_container" >
     <nav class="desktop-nav">
       <ul class="dn-list">
         <li> <a href="#home">Portfolio </a></li>
@@ -54,7 +70,7 @@
     </div>
   </main>
 
-  <section class="grid_container_1">
+  <section class="grid_container_1" id="home">
     <div class="imp-div">
       <h1 class="second_page_title">My Recent Works</h1>
       <hr class="divider">
