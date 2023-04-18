@@ -274,7 +274,7 @@ h3 {
 .button,
 .get-button {
   background-color: #36b37f;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 17px;
   color: white;
   border-radius: 4px;
@@ -323,7 +323,7 @@ h3 {
 .resume_button {
   font-family: "Inter", sans-serif;
   background-color: #36b37f;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
   color: white;
   border-radius: 5px;
@@ -381,7 +381,7 @@ h3 {
   width: 327px;
   font-size: 24px;
   align-self: auto;
-  font-style: bold;
+  font-style: normal;
   font-family: 'Inter', sans-serif;
   text-align: center;
   font-weight: 700;
@@ -397,7 +397,7 @@ h3 {
 }
 
 .about-a1 {
-  font-style: none;
+  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   color: #36b37e;
@@ -443,7 +443,7 @@ input {
   color: #6b778c;
   line-height: 24px;
   font-size: 15px;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Inter", sans-serif;
   font-style: normal;
   padding: 10px;
@@ -460,7 +460,7 @@ input {
   color: #6b778c;
   line-height: 24px;
   font-size: 15px;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Inter", sans-serif;
   font-style: normal;
   padding: 10px;
@@ -476,7 +476,7 @@ input {
   color: #6b778c;
   line-height: 24px;
   font-size: 15px;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Inter", sans-serif;
   font-style: normal;
   height: 114px;
@@ -628,7 +628,7 @@ textarea {
 
 .see-button {
   background-color: #36b37f;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 17px;
   color: white;
   border-radius: 4px;
