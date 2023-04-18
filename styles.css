@@ -119,6 +119,10 @@ p {
   background-size: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .dn-list {
   display: flex;
   flex-direction: row;
@@ -1185,9 +1189,4 @@ textarea {
   font-size: 17px;
   text-align: left;
   color: rgb(206, 31, 31);
-}
-
-a {
-  text-decoration: none;
-  
 }
