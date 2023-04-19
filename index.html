@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/213f6776ae.js" crossorigin="anonymous"></script>
   <script src="script.js" defer></script>
+  <script src="formValidation.js" defer></script>
 </head>
 
 <body>
@@ -163,28 +164,28 @@
     </section>
 
     <section class="contact-form-2" id="contact">
-      <form action="https://formspree.io/f/mqkoyljj" method="post">
+      <form action="https://formspree.io/f/mqkoyljj" method="post" class="contactForm">
         <ul>
 
           <li class="name-box">
             <label for="name"></label>
-            <input name="user-name" type="text" placeholder="Full name" maxlength="30" class="name" required />
+            <input name="user-name" type="text" placeholder="Full name" maxlength="30" id="name" class="name" required />
           </li>
 
           <li class="email-box">
             <label for="email"></label>
-            <input type="email" name="email" placeholder="Email address" class="email" required />
+            <input type="email" name="email" placeholder="Email address" id="emailAdress" class="email" required />
           </li>
 
           <li class="text-box">
             <label for="message"></label>
             <textarea type="text" name="message" rows="5" placeholder="Enter yout text here" maxlength="500"
-              class="text" required></textarea>
+              class="text" id="user-message" required></textarea>
           </li>
         </ul>
 
         <div class="last-b">
-          <button class="get-button">
+          <button class="get-button" id="submitB">
             Get in touch
           </button>
         </div>
