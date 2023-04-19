@@ -660,6 +660,15 @@ textarea {
   gap: 10px;
 }
 
+.error {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+  color: rgb(206, 31, 31);
+}
+
 /* <----------------------------------MIN-WIDTH MEDIA QUERRY STARTS FROM HERE----------------------------------------> */
 
 @media screen and (min-width: 768px) {
@@ -1240,11 +1249,3 @@ textarea {
 }
 
 /*  Validation stylings */
-.error {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: left;
-  color: rgb(206, 31, 31);
-}
