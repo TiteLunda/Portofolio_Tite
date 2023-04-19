@@ -1240,7 +1240,15 @@ textarea {
 }
 
 /*  Validation stylings */
-.error {
+/* .error {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+  color: rgb(206, 31, 31);
+} */
+.message{
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
