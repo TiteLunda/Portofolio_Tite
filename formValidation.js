@@ -12,6 +12,6 @@ contactForm.addEventListener('submit', (event) => {
     contactForm.submit();
     emailInput.className = 'error valid';
     error.textContent = '';
-    error.className = 'error'; 
+    error.className = 'error';
   }
 });
