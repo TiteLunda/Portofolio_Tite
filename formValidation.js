@@ -6,7 +6,7 @@ const error = document.querySelector('.error');
 contactForm.addEventListener('submit', (event) => {
   if (!isValid(emailInput.value)) {
     event.preventDefault();
-    error.textContent = 'Email must be in lower case, darling!';
+    error.textContent = 'Submission failed, pleae use lowercase for your email';
     error.className = 'message active';
   } else {
     contactForm.submit();
