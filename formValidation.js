@@ -7,11 +7,11 @@ contactForm.addEventListener('submit', (event) => {
   if (!isValid(emailInput.value)) {
     event.preventDefault();
     error.textContent = 'Email must be in lower case, darling!';
-    error.className = 'error active';
+    error.className = 'message active';
   } else {
     contactForm.submit();
-    emailInput.className = 'valid';
+    emailInput.className = 'error valid';
     error.textContent = '';
-    error.className = 'error';
+    error.className = 'error'; 
   }
 });
