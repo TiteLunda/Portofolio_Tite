@@ -1,6 +1,6 @@
-const fullName = document.querySelector('#username');
+const fullName = document.querySelector('#name');
 const feedback = document.querySelector('#emailAdress');
-const Message = document.querySelector('#message');
+const Message = document.querySelector('#user-message');
 
 function visitorData() {
   const visitor = {
